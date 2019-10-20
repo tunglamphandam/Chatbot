@@ -1,0 +1,74 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day","Hey","Are you Linda?","Oh, long time no see you"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+         "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {"tag": "payments",
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+         "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+        },
+        {"tag": "opentoday",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {"tag": "food",
+            "patterns": ["what is your favortite food?","which food do you like most?","your favortite food?","which food do you like best?"],
+            "responses": ["mam tom", "bun bo hue", "bun dau mam tom"," all vietnamese cuisine"," all spicy dishes", "matcha mix chocolate stuffs"]
+        },
+        {"tag": "health",
+            "patterns": ["what should i do to be healthy?","how can i do to be healthy?","recommend me some ways to improve health"],
+            "responses": ["playing sports", "doing exercises","laughing more","jogging","think positively","dont stay up late","have sex more","find lover"]
+        },
+        {"tag": "slang",
+            "patterns": ["bitch","what's hell","ass","dick","as fuck","fuck you"],
+            "responses": ["let me be your butt","asshole","assface","atta","a a a faster","sap ra roi a a"," nung lon ha","muon du tao hay gi","con ponk long xien"]
+        },
+        {"tag": "sports",
+            "patterns": ["what is your favorite sports", "do you like sports","which sports do you play","what kind of sports you play"],
+            "responses": ["volleybal","soccer","football","badminton","tennis","chess","gamesports: LOL, LQMB,..."]
+        },
+        {"tag": "singers",
+            "patterns": ["do you like any singers","which singers do you like","singer","favorite singer"],
+            "responses": ["taylor swift","justin bieber","ariana","lana","adele","gaga","beyeonce","ho ngoc ha","bui anh tuan","bts","blackpink","exo"]
+        },
+        {"tag": "environment",
+            "patterns": ["methods to  protect environment","how to protect environment","ways to make environment better"," how to improve environment"],
+            "responses": ["walk or ride bike to work","reduce CO2...","use second_usage stuffs","stop using nilon","plant trees","save energy","dont waste foods"]
+        },
+        {"tag": "city",
+            "patterns": ["list out some city you know","tell me which city you like most","which city have you visited"],
+            "responses": ["Ho Chi Minh city with proactive lifestyle","Hanoi capital with ancient building","Charming Hue with Huong river","DaNang-friendly and fresh"]
+        },
+        {"tag": "animal",
+            "patterns": ["do you like animal","what kind of animal do you like","which animal do you like most"],
+            "responses": ["horse","maybe dog","ohh definitly cat","all except snake, so scary","i love golden or cozi dog","i hate animal, they are dirty and noisy"]
+        },
+        {"tag": "kpop group",
+            "patterns": ["favorite kpop group","kpop group","which group kpop do you like"],
+            "responses": ["bts","snsd","blackpink","exo","superjunior","kara","tara","fx","shinee","bigbang"]
+        },
+        {"tag": "book",
+            "patterns": ["do you like reading book","what genres of book fancy you most","your favorite book"],
+            "responses": ["yes i truly love reading, all sorts of book","no, never, i love recreation more","novel maybe","science is my fav","i love cooking, so that is my first choice"]
+        },
+        {"tag": "code1",
+            "patterns": ["so sanh hai chuoi"],
+            "responses": 
+            ["
+                "]
+        }
+   ]
+}
